@@ -203,3 +203,15 @@ Redundant version-summary hero card removed.
 
 - removed the `Version discipline / Timestamp every content update` summary card from the hero facts row
 - rebuilt the app and confirmed the running preview serves the updated bundle without that card
+
+## 2026-04-02
+
+Git version control initialized for the project package.
+
+### What was done
+
+- initialized a new git repository in `Automations/260302`
+- added a project `.gitignore` for local build output and dependency folders
+- connected the remote repository `https://github.com/chrfra/project-management.git`
+- created and pushed the initial `main` branch commit
+- configured the local repo identity to use the GitHub noreply email so pushes comply with GitHub privacy settings
